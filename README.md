@@ -30,7 +30,7 @@ grep -A 6 "L337.*9" vehicles
 ```
 Blue Hondas owned by people 6' or taller: Erika Owens, Joe Germuska, Jeremy Bowers, Jacqui Maher.
 
-### 4. Check sex and memberships
+### 4. Check gender and memberships
 ```
 grep -E "Erika Owens|Joe Germuska|Jeremy Bowers|Jacqui Maher" people
 grep -E "Joe Germuska|Jeremy Bowers" memberships/*
@@ -45,7 +45,7 @@ md5sum ~/mysolution
 ```
 The result matched the expected checksum `9bba101c7369f49ca890ea96aa242dd5`.
 
-## What I learned
+## What I learned from this task
 - `grep` searches text, and `-A` shows lines after a match
 - `sed -n 40p` prints one specific line
 - `echo *` lists files when `ls` is not available
